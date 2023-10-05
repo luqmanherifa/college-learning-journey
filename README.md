@@ -1,2 +1,1 @@
-# coding-learning-journey-for-college
- 
+# Coding Learning Journey for College
