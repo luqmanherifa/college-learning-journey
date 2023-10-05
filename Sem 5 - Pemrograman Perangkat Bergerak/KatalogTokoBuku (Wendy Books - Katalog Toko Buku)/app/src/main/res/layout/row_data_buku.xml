@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="10dp"
+    card_view:cardElevation="-20dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/txt_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_penulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/txt_penerbit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+        android:id="@+id/txt_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:textColor="#000"
+        android:textSize="17sp" />
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_url"
+            android:layout_width="75dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

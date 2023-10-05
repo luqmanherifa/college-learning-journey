@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : "
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNama"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai UTS: "
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNilaiUTS"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai TUGAS: "
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNilaiTUGAS"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nilai UAS: "
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNilaiUAS"
+        />
+    <ImageButton
+        android:src="@drawable/proses"
+        android:background="@android:color/transparent"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/btnProses"
+        android:text="Proses" />
+    <ImageButton
+        android:src="@drawable/exit"
+        android:background="@android:color/transparent"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/btnExit"
+        android:text="Keluar" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvHasil"
+        android:text=""
+        />
+</LinearLayout>

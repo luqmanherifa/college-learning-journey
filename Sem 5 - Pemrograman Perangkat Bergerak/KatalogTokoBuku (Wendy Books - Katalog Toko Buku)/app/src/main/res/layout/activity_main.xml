@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgmain" >
+
+    <ImageButton
+        android:id="@+id/cmdRumah"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="510px"
+        android:layout_gravity="center"
+        android:background="@drawable/logorumah" />
+
+    <ImageButton
+        android:id="@+id/cmdDenah"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="10px"
+        android:layout_gravity="center"
+        android:background="@drawable/logodenah" />
+
+    <ImageButton
+        android:id="@+id/cmdBuku"
+        android:layout_width="170dp"
+        android:layout_height="86dp"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="10px"
+        android:layout_gravity="center"
+        android:background="@drawable/logobuku" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="70px"
+        android:layout_gravity="center"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginLeft="0px"
+        android:layout_marginTop="10px"
+        android:layout_gravity="center"
+        android:text="Help" />
+
+</LinearLayout>

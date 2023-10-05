@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello, ini adalah program untuk\nMemilih Hero by Luqman STIKI\n\n"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nickname ID Kamu: "
+        />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNickID"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hero"
+        />
+    <RadioGroup
+        android:id="@+id/etRgHero" android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:text="Warrior"
+            android:id="@+id/etRbHero1"
+            android:checked="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+        <RadioButton
+            android:text="Archer"
+            android:id="@+id/etRbHero2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+        <RadioButton
+            android:text="Mage"
+            android:id="@+id/etRbHero3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kelas"
+        />
+        <RadioGroup
+            android:id="@+id/etRgKelas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/etRbKelas1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"/>
+            <RadioButton
+                android:id="@+id/etRbKelas2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"/>
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/item"
+        />
+    <RadioGroup
+        android:id="@+id/etRgItem"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:text="Attack Box"
+            android:id="@+id/etRbItem1"
+            android:checked="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+
+        <RadioButton
+            android:text="Defense Box"
+            android:id="@+id/etRbItem2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:text="ASPD Box"
+            android:id="@+id/etRbItem3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton
+            android:text="HP Box"
+            android:id="@+id/etRbItem4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:text="DONE BRO!"
+        android:id="@+id/btnPilih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <TextView
+        android:id="@+id/txtTampil1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <TextView
+        android:text=""
+        android:id="@+id/txtTampil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+        <ImageView
+            android:id="@+id/etGambar"
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_marginLeft="400px"
+            android:layout_marginTop="-810px"
+            android:layout_marginBottom="-180px" />
+
+    </LinearLayout>
+
+</ScrollView>

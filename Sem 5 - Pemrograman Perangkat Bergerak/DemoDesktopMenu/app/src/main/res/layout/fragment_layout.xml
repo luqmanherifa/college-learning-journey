@@ -1,0 +1,54 @@
+<com.stiki.luqman.demodesktopmenu.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+   
+    <Button
+        android:id="@+id/btn_malang"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/malang"
+        android:text="Kota Malang" />
+     
+    <Button
+        android:id="@+id/btn_tlpenting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/teleponpenting"
+        android:text="Telepon Penting" />
+     
+    <Button
+        android:id="@+id/btn_tmpenting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tempatpenting"
+        android:text="Tempat Penting" />
+     
+    <Button
+        android:id="@+id/btn_rsakit"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/rumahsakit"
+        android:text="Rumah Sakit" />
+    
+    <Button
+        android:id="@+id/btn_pwisata"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/pariwisata"
+        android:text="Pariwisata" />
+    
+    <Button
+        android:id="@+id/btn_ptinggi"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/pt"
+        android:text="Perguruan Tinggi" />
+    <Button
+        android:id="@+id/btn_tmusik"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/tokomusik"
+        android:text="Toko Musik" />
+    <Button
+        android:id="@+id/btn_kpemerintah"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/kantorpemerintah"
+        android:text="Kantor Pemerintah" />
+
+</com.stiki.luqman.demodesktopmenu.DashboardLayout>

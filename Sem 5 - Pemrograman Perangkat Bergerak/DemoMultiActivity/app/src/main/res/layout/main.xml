@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back" >
+
+    <ImageView
+        android:background="@drawable/imglabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:id="@+id/cmdOpen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol01"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:id="@+id/cmdDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol02"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:id="@+id/cmdAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol03"
+        android:layout_gravity="center"
+        />
+    <ImageButton
+        android:id="@+id/cmdHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tombol04"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

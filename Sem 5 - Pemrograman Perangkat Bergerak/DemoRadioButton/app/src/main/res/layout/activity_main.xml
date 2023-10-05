@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello"
+        />
+    <RadioGroup android:id="@+id/rdoGroup1" android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:text="Laki-Laki" android:id="@+id/rdoJK1" android:checked="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+        <RadioButton android:text="Wanita" android:id="@+id/rdoJK2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Pendidikan :"
+        />
+    <RadioGroup android:id="@+id/rdoGroup2" android:orientation="vertical"
+        android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RadioButton android:text="SD" android:id="@+id/rdoP1" android:checked="true"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+        <RadioButton android:text="SMP" android:id="@+id/rdoP2"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+        <RadioButton android:text="SMA" android:id="@+id/rdoP3"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"></RadioButton>
+    </RadioGroup>
+    <Button android:text="Pilih" android:id="@+id/btnPilih" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Button>
+    <TextView android:text="da" android:id="@+id/txtTampil"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+</LinearLayout>

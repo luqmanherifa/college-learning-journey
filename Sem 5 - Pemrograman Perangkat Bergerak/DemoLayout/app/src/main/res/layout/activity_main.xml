@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/widget49"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/widget34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Siswa" />
+    <EditText
+        android:id="@+id/widget35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/widget36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <EditText
+        android:id="@+id/widget37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/widget38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simpan" />
+    <Button
+        android:id="@+id/widget39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ulang" />
+    <Button
+        android:id="@+id/widget40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar" />
+</TableLayout>
