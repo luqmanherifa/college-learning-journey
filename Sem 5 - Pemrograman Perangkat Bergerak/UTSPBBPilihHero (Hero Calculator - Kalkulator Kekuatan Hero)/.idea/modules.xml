@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UTS_PBB_-_Pilih_Hero.iml" filepath="$PROJECT_DIR$/.idea/modules/UTS_PBB_-_Pilih_Hero.iml" group="UTS_PBB_-_Pilih_Hero" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="UTS PBB - Pilih Hero/app" />
-    </modules>
-  </component>
-</project>
