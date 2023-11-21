@@ -1,7 +1,5 @@
 # College Development Journey
-A collection of some college coding journey projects that I worked on during my college days.
-
-*A journey of a thousand commits begins with a single push.*
+*A journey of a thousand commits begins with a single push.* A collection of some college coding journey projects that I worked on during my college days.
 
 ## Interface
 ![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/collegedj.png)
