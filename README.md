@@ -1,4 +1,4 @@
-# College Development Journey
+# College Learning Journey
 A journey of a thousand commits begins with a single push. A collection of some college coding journey projects that I worked on during my college days.
 
 ## Interface
