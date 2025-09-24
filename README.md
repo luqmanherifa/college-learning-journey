@@ -3,5 +3,3 @@ A journey of a thousand commits begins with a single push. A collection of some 
 
 ## Interface
 ![Interface](https://raw.githubusercontent.com/luqmanherifa/luqman-herifa-personal-portfolio-v2/main/public/works/collegelj.png)
-
-- Date created: September 2017 — December 2021
